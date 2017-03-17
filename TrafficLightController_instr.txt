@@ -1,0 +1,26 @@
+Objective:
+To implement an automated traffic light controller in single circuit using Arduino.
+
+Components needed:
+Arduino UNO
+1 switch
+10kohm resistor (pull down)
+1 Red LED
+1 Yellow LED
+1 Green LED
+3 220 ohm resistors
+
+Pin Logics:
+2 - input
+3, 4, 5 output
+3 - G
+4 - Y
+5 - R
+
+Pseudo code:
+a) initialize the ports (2,3,4,5)
+b) when the switch is open, Green LED glows.
+c) when the switch is closed, Yellow LED glows for 5 secs and then Red Led glows for 15 secs.
+d) b & c steps run indefinitely in the loop routine.
+
+Courtesy : Arduino.cc & Fritzing
